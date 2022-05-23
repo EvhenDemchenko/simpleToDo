@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin: 0 auto;
+}
+.wrapper {
+    max-width: 550px;
+    max-height: 800px;
+    margin: 0 auto;
+    background: #7d7d7d;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.input {
+    width: 90%;
+}
+.list {
+    width: 75%;
+}
+.list_item {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    border: 1px solid teal;
+    border-radius: 2px;
+}
